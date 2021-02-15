@@ -1,0 +1,155 @@
+/*CSSについてのコードを入力*/
+header{
+	height:50px;
+	width:1380px;
+	background-color:dodgerblue;
+	color:white;
+	position:fixed;
+	top:0;
+	z-index: 10;
+}
+
+.company-name{
+	font-size:30px;
+	float:left;
+	padding:5px 250px 10px 40px;
+}
+
+
+
+.list{
+	list-style:none;
+}
+
+.list li{
+	float:left;
+	display:inline-block;
+	margin:0.5px 20px;
+   
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+a:hover{
+	color:red;
+	opacity:1;
+}
+
+.top-body{
+	height:800px;
+	background-image:url(tatemono.jpg);
+	background-color:rgba(255,255,255,0.8);
+	background-blend-mode:hard-light;
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+
+h1{
+	font-size:50px;
+	color:brown;
+	position:absolute;
+	top:100px;
+	left:250px;
+}
+
+h2{
+	color:brown;
+	position:absolute;
+	top:200px;
+	left:510px;
+}
+
+.middle-body{
+	height:500px;
+}
+
+h3{
+	font-size:50px;
+	text-align:center;
+	border-bottom:1px solid black;
+	margin-bottom:5px;
+}
+
+.work{
+	float:left;
+	width:20%;
+}
+
+.work-name{
+	display:inline-block;
+	margin-left:100px;
+	background:linear-gradient(transparent 50%,yellow 50%);
+}
+
+.list2{
+	display:inline-block;
+	border-top:2px solid black;
+	margin-left:40px;
+	margin-top:0px;
+}
+
+.list2 li{
+	margin-top:5px;
+}
+
+.work2{
+	width:20%;
+	float:left;
+}	
+
+footer{
+	height:350px;
+	background-color:#EEEEEE;
+}
+
+.foot-name{
+	font-size:30px;
+	text-align:center;
+}
+
+.foot-main{
+	text-align:center;
+	margin-top:30px;
+}
+
+.btn{
+	padding:8px 24px;
+	color:white;
+	display:inline-block;
+	opacity:0.8;
+	margin-right:40px;
+	border-radius:4px;
+}
+
+.btn:hover{
+	opacity:1;
+}
+
+.twitter{
+	background-color:#00aced;
+}
+
+.facebook{
+	background-color:#305097;
+}
+
+.instagram{
+	background-color:#3f729b;
+}
+
+.YouTube{
+	background-color:#cd201f;
+}
+
+.tell{
+	font-size:30px;
+	text-align:center;
+}
+
+.down-menu{
+	clear:left;
+}
